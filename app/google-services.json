@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "298834255956",
+    "project_id": "storeapp-895cf",
+    "storage_bucket": "storeapp-895cf.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:298834255956:android:c1271c9b221b64c339cdc1",
+        "android_client_info": {
+          "package_name": "com.agamy.storeapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDB_im2Yd5ACo9y3p7WhaAZEIZg1p4v9NI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

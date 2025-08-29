@@ -6,6 +6,8 @@ plugins {
     id("com.google.dagger.hilt.android")  version "2.51.1"
     kotlin("kapt") // ✅ لإضافة دعم KAPT
 
+    id("com.google.gms.google-services")
+
 }
 
 android {
@@ -78,5 +80,11 @@ dependencies {
     // Hilt + Compose Navigation
     implementation("androidx.hilt:hilt-navigation-compose:1.2.0")
     implementation("com.squareup:javapoet:1.13.0")
+
+
+    //firebase
+    implementation(platform("com.google.firebase:firebase-bom:34.2.0"))
+    implementation("com.google.firebase:firebase-analytics")
+    implementation("com.google.firebase:firebase-auth")
 
 }
